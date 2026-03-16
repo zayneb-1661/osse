@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.osse.bdd.RunCucumberTest" time="0.896" tests="41" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/zayneb/osse/osse-bdd/target/test-classes:/home/zayneb/osse/osse-bdd/target/classes:/home/zayneb/.m2/repository/io/cucumber/cucumber-java/7.16.1/cucumber-java-7.16.1.jar:/home/zayneb/.m2/repository/io/cucumber/cucumber-core/7.16.1/cucumber-core-7.16.1.jar:/home/zayneb/.m2/repository/io/cucumber/cucumber-gherkin/7.16.1/cucumber-gherkin-7.16.1.jar:/home/zayneb/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.16.1/cucumber-gherkin-messages-7.16.1.jar:/home/zayneb/.m2/repository/io/cucumber/gherkin/28.0.0/gherkin-28.0.0.jar:/home/zayneb/.m2/repository/io/cucumber/messages/24.1.0/messages-24.1.0.jar:/home/zayneb/.m2/repository/io/cucumber/tag-expressions/6.1.0/tag-expressions-6.1.0.jar:/home/zayneb/.m2/repository/io/cucumber/cucumber-expressions/17.1.0/cucumber-expressions-17.1.0.jar:/home/zayneb/.m2/repository/io/cucumber/datatable/7.16.1/datatable-7.16.1.jar:/home/zayneb/.m2/repository/io/cucumber/cucumber-plugin/7.16.1/cucumber-plugin-7.16.1.jar:/home/zayneb/.m2/repository/io/cucumber/docstring/7.16.1/docstring-7.16.1.jar:/home/zayneb/.m2/repository/io/cucumber/html-formatter/21.3.0/html-formatter-21.3.0.jar:/home/zayneb/.m2/repository/io/cucumber/junit-xml-formatter/0.3.0/junit-xml-formatter-0.3.0.jar:/home/zayneb/.m2/repository/io/cucumber/ci-environment/10.0.1/ci-environment-10.0.1.jar:/home/zayneb/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/zayneb/.m2/repository/io/cucumber/cucumber-junit/7.16.1/cucumber-junit-7.16.1.jar:/home/zayneb/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/zayneb/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-21-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/zayneb/osse/osse-bdd/target/surefire/surefirebooter-20260313002748645_3.jar /home/zayneb/osse/osse-bdd/target/surefire 2026-03-13T00-27-48_564-jvmRun1 surefire-20260313002748645_1tmp surefire_0-20260313002748645_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/zayneb/osse/osse-bdd/target/test-classes:/home/zayneb/osse/osse-bdd/target/classes:/home/zayneb/.m2/repository/io/cucumber/cucumber-java/7.16.1/cucumber-java-7.16.1.jar:/home/zayneb/.m2/repository/io/cucumber/cucumber-core/7.16.1/cucumber-core-7.16.1.jar:/home/zayneb/.m2/repository/io/cucumber/cucumber-gherkin/7.16.1/cucumber-gherkin-7.16.1.jar:/home/zayneb/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.16.1/cucumber-gherkin-messages-7.16.1.jar:/home/zayneb/.m2/repository/io/cucumber/gherkin/28.0.0/gherkin-28.0.0.jar:/home/zayneb/.m2/repository/io/cucumber/messages/24.1.0/messages-24.1.0.jar:/home/zayneb/.m2/repository/io/cucumber/tag-expressions/6.1.0/tag-expressions-6.1.0.jar:/home/zayneb/.m2/repository/io/cucumber/cucumber-expressions/17.1.0/cucumber-expressions-17.1.0.jar:/home/zayneb/.m2/repository/io/cucumber/datatable/7.16.1/datatable-7.16.1.jar:/home/zayneb/.m2/repository/io/cucumber/cucumber-plugin/7.16.1/cucumber-plugin-7.16.1.jar:/home/zayneb/.m2/repository/io/cucumber/docstring/7.16.1/docstring-7.16.1.jar:/home/zayneb/.m2/repository/io/cucumber/html-formatter/21.3.0/html-formatter-21.3.0.jar:/home/zayneb/.m2/repository/io/cucumber/junit-xml-formatter/0.3.0/junit-xml-formatter-0.3.0.jar:/home/zayneb/.m2/repository/io/cucumber/ci-environment/10.0.1/ci-environment-10.0.1.jar:/home/zayneb/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/zayneb/.m2/repository/io/cucumber/cucumber-junit/7.16.1/cucumber-junit-7.16.1.jar:/home/zayneb/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/zayneb/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/zayneb"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-01-20"/>
+    <property name="java.home" value="/usr/lib/jvm/java-21-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/zayneb/osse/osse-bdd"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/home/zayneb/osse/osse-bdd/target/surefire/surefirebooter-20260313002748645_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.10+7-Ubuntu-124.04"/>
+    <property name="user.name" value="zayneb"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.6.87.2-microsoft-standard-WSL2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/zayneb/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-21"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="21.0.10"/>
+    <property name="user.dir" value="/home/zayneb/osse/osse-bdd"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="java.vm.version" value="21.0.10+7-Ubuntu-124.04"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="Successful login" classname="User authentication" time="0.142">
+    <system-out><![CDATA[
+Scenario: Successful login               &amp#27;[90m# src/test/resources/features/authentication.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma registered user exists&amp#27;[0m         &amp#27;[90m# com.osse.bdd.steps.AuthenticationSteps.a_registered_user_exists()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user enters valid credentials&amp#27;[0m &amp#27;[90m# com.osse.bdd.steps.AuthenticationSteps.the_user_enters_valid_credentials()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe system authenticates the user&amp#27;[0m &amp#27;[90m# com.osse.bdd.steps.AuthenticationSteps.the_system_authenticates_the_user()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mredirects to the dashboard&amp#27;[0m         &amp#27;[90m# com.osse.bdd.steps.AuthenticationSteps.redirects_to_the_dashboard()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Reject invalid login" classname="User authentication" time="0.013">
+    <system-out><![CDATA[
+Scenario: Reject invalid login             &amp#27;[90m# src/test/resources/features/authentication.feature:9&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma registered user exists&amp#27;[0m           &amp#27;[90m# com.osse.bdd.steps.AuthenticationSteps.a_registered_user_exists()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user enters invalid credentials&amp#27;[0m &amp#27;[90m# com.osse.bdd.steps.AuthenticationSteps.the_user_enters_invalid_credentials()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe system refuses authentication&amp#27;[0m   &amp#27;[90m# com.osse.bdd.steps.AuthenticationSteps.the_system_refuses_authentication()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mdisplays an error message&amp#27;[0m            &amp#27;[90m# com.osse.bdd.steps.CommonSteps.displays_an_error_message()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Close soutenance successfully" classname="Generate PV and close soutenance" time="0.022">
+    <system-out><![CDATA[
+Scenario: Close soutenance successfully               &amp#27;[90m# src/test/resources/features/closure.feature:9&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user is authenticated with closure rights&amp#27;[0m &amp#27;[90m# com.osse.bdd.steps.ClosureSteps.closure_rights()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mall evaluations are complete&amp#27;[0m                  &amp#27;[90m# com.osse.bdd.steps.ClosureSteps.evaluations_complete()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user triggers final calculation&amp#27;[0m            &amp#27;[90m# com.osse.bdd.steps.ClosureSteps.trigger_calculation()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe system calculates the weighted final grade&amp#27;[0m &amp#27;[90m# com.osse.bdd.steps.ClosureSteps.calculate_grade()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mgenerates the PV document&amp#27;[0m                       &amp#27;[90m# com.osse.bdd.steps.ClosureSteps.generate_pv()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32msets the status to &amp#27;[0m&amp#27;[32m&amp#27;[1m"CLOTUREE"&amp#27;[0m                   &amp#27;[90m# com.osse.bdd.steps.ClosureSteps.set_status(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Prevent closure with incomplete evaluations" classname="Generate PV and close soutenance" time="0.012">
+    <system-out><![CDATA[
+Scenario: Prevent closure with incomplete evaluations &amp#27;[90m# src/test/resources/features/closure.feature:16&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user is authenticated with closure rights&amp#27;[0m &amp#27;[90m# com.osse.bdd.steps.ClosureSteps.closure_rights()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mat least one evaluation is incomplete&amp#27;[0m         &amp#27;[90m# com.osse.bdd.steps.ClosureSteps.evaluation_incomplete()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user attempts closure&amp#27;[0m                      &amp#27;[90m# com.osse.bdd.steps.ClosureSteps.attempt_closure()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe system refuses closure&amp#27;[0m                     &amp#27;[90m# com.osse.bdd.steps.ClosureSteps.refuse_closure()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Prevent closure with invalid weighting" classname="Generate PV and close soutenance" time="0.011">
+    <system-out><![CDATA[
+Scenario: Prevent closure with invalid weighting      &amp#27;[90m# src/test/resources/features/closure.feature:21&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user is authenticated with closure rights&amp#27;[0m &amp#27;[90m# com.osse.bdd.steps.ClosureSteps.closure_rights()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe total weighting of criteria is invalid&amp#27;[0m    &amp#27;[90m# com.osse.bdd.steps.ClosureSteps.invalid_weight()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mfinal calculation is triggered&amp#27;[0m                 &amp#27;[90m# com.osse.bdd.steps.ClosureSteps.final_calculation()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe system blocks the calculation&amp#27;[0m              &amp#27;[90m# com.osse.bdd.steps.ClosureSteps.block_calculation()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Two coordinators modify the planning simultaneously" classname="Concurrency management" time="0.01">
+    <system-out><![CDATA[
+Scenario: Two coordinators modify the planning simultaneously &amp#27;[90m# src/test/resources/features/concurrency.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mtwo coordinators open the same draft planning&amp#27;[0m         &amp#27;[90m# com.osse.bdd.steps.ConcurrencySteps.open_same_planning()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe first coordinator saves modifications&amp#27;[0m              &amp#27;[90m# com.osse.bdd.steps.ConcurrencySteps.first_save()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe second coordinator tries to save outdated data&amp#27;[0m      &amp#27;[90m# com.osse.bdd.steps.ConcurrencySteps.second_save()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe system rejects the second update&amp#27;[0m                   &amp#27;[90m# com.osse.bdd.steps.ConcurrencySteps.reject_second_update()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mdisplays a version conflict message&amp#27;[0m                     &amp#27;[90m# com.osse.bdd.steps.ConcurrencySteps.conflict_message()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Jury enters grades during closure attempt" classname="Concurrency management" time="0.012">
+    <system-out><![CDATA[
+Scenario: Jury enters grades during closure attempt     &amp#27;[90m# src/test/resources/features/concurrency.feature:10&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma jury is entering grades&amp#27;[0m                       &amp#27;[90m# com.osse.bdd.steps.ConcurrencySteps.jury_entering_grades()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe coordinator attempts to close the soutenance&amp#27;[0m &amp#27;[90m# com.osse.bdd.steps.ConcurrencySteps.coordinator_attempt_close()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe system ensures atomic validation&amp#27;[0m             &amp#27;[90m# com.osse.bdd.steps.ConcurrencySteps.atomic_validation()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclosure is either completed correctly&amp#27;[0m             &amp#27;[90m# com.osse.bdd.steps.ConcurrencySteps.closure_correct()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32minconsistent states are prevented&amp#27;[0m                 &amp#27;[90m# com.osse.bdd.steps.ConcurrencySteps.prevent_inconsistent_states()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Create a valid session" classname="Create a defence session" time="0.015">
+    <system-out><![CDATA[
+Scenario: Create a valid session                             &amp#27;[90m# src/test/resources/features/create_session.feature:10&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user is authenticated&amp#27;[0m                            &amp#27;[90m# com.osse.bdd.steps.CommonSteps.the_user_is_authenticated()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user has ADMIN or COORDINATOR role&amp#27;[0m                 &amp#27;[90m# com.osse.bdd.steps.SessionSteps.the_user_has_admin_or_coordinator_role()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user enters a valid name, type and coherent dates&amp#27;[0m &amp#27;[90m# com.osse.bdd.steps.SessionSteps.valid_session_data()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32msubmits the form&amp#27;[0m                                       &amp#27;[90m# com.osse.bdd.steps.SessionSteps.submits_the_form()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe system creates the session&amp#27;[0m                        &amp#27;[90m# com.osse.bdd.steps.SessionSteps.the_system_creates_the_session()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe session status is &amp#27;[0m&amp#27;[32m&amp#27;[1m"BROUILLON"&amp#27;[0m                      &amp#27;[90m# com.osse.bdd.steps.SessionSteps.the_session_status_is(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Reject session with incoherent dates" classname="Create a defence session" time="0.013">
+    <system-out><![CDATA[
+Scenario: Reject session with incoherent dates                 &amp#27;[90m# src/test/resources/features/create_session.feature:16&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user is authenticated&amp#27;[0m                              &amp#27;[90m# com.osse.bdd.steps.CommonSteps.the_user_is_authenticated()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user has ADMIN or COORDINATOR role&amp#27;[0m                   &amp#27;[90m# com.osse.bdd.steps.SessionSteps.the_user_has_admin_or_coordinator_role()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user enters an end date earlier than the start date&amp#27;[0m &amp#27;[90m# com.osse.bdd.steps.SessionSteps.invalid_dates()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32msubmits the form&amp#27;[0m                                         &amp#27;[90m# com.osse.bdd.steps.SessionSteps.submits_the_form()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe system refuses creation&amp#27;[0m                             &amp#27;[90m# com.osse.bdd.steps.SessionSteps.the_system_refuses_creation()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mdisplays an error message&amp#27;[0m                                &amp#27;[90m# com.osse.bdd.steps.CommonSteps.displays_an_error_message()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Reject duplicate session" classname="Create a defence session" time="0.009">
+    <system-out><![CDATA[
+Scenario: Reject duplicate session                             &amp#27;[90m# src/test/resources/features/create_session.feature:22&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user is authenticated&amp#27;[0m                              &amp#27;[90m# com.osse.bdd.steps.CommonSteps.the_user_is_authenticated()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user has ADMIN or COORDINATOR role&amp#27;[0m                   &amp#27;[90m# com.osse.bdd.steps.SessionSteps.the_user_has_admin_or_coordinator_role()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma session with the same name and period already exists&amp#27;[0m &amp#27;[90m# com.osse.bdd.steps.SessionSteps.duplicate_session()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user tries to create the session again&amp#27;[0m              &amp#27;[90m# com.osse.bdd.steps.SessionSteps.create_session_again()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe system refuses creation&amp#27;[0m                             &amp#27;[90m# com.osse.bdd.steps.SessionSteps.the_system_refuses_creation()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Enter valid grades" classname="Enter evaluation grades" time="0.016">
+    <system-out><![CDATA[
+Scenario: Enter valid grades                                      &amp#27;[90m# src/test/resources/features/evaluation.feature:11&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe soutenance is accessible&amp#27;[0m                              &amp#27;[90m# com.osse.bdd.steps.EvaluationSteps.soutenance_accessible()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32ma grading grid is active&amp#27;[0m                                    &amp#27;[90m# com.osse.bdd.steps.EvaluationSteps.grading_grid_active()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user is authenticated as JURY&amp#27;[0m                           &amp#27;[90m# com.osse.bdd.steps.EvaluationSteps.jury_authenticated()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe jury enters grades between &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m20&amp#27;[0m&amp#27;[32m for each criterion&amp#27;[0m &amp#27;[90m# com.osse.bdd.steps.EvaluationSteps.enter_grades(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe system records the grades&amp#27;[0m                              &amp#27;[90m# com.osse.bdd.steps.EvaluationSteps.records_grades()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mmarks the evaluation as complete&amp#27;[0m                            &amp#27;[90m# com.osse.bdd.steps.EvaluationSteps.evaluation_complete()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Reject grade outside allowed range" classname="Enter evaluation grades" time="0.01">
+    <system-out><![CDATA[
+Scenario: Reject grade outside allowed range   &amp#27;[90m# src/test/resources/features/evaluation.feature:16&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe soutenance is accessible&amp#27;[0m           &amp#27;[90m# com.osse.bdd.steps.EvaluationSteps.soutenance_accessible()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32ma grading grid is active&amp#27;[0m                 &amp#27;[90m# com.osse.bdd.steps.EvaluationSteps.grading_grid_active()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user is authenticated as JURY&amp#27;[0m        &amp#27;[90m# com.osse.bdd.steps.EvaluationSteps.jury_authenticated()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe jury enters a grade greater than &amp#27;[0m&amp#27;[32m&amp#27;[1m20&amp#27;[0m &amp#27;[90m# com.osse.bdd.steps.EvaluationSteps.invalid_grade(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe system rejects the value&amp#27;[0m            &amp#27;[90m# com.osse.bdd.steps.EvaluationSteps.reject_value()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mdisplays an error message&amp#27;[0m                &amp#27;[90m# com.osse.bdd.steps.CommonSteps.displays_an_error_message()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Prevent editing after closure" classname="Enter evaluation grades" time="0.011">
+    <system-out><![CDATA[
+Scenario: Prevent editing after closure     &amp#27;[90m# src/test/resources/features/evaluation.feature:21&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe soutenance is accessible&amp#27;[0m        &amp#27;[90m# com.osse.bdd.steps.EvaluationSteps.soutenance_accessible()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32ma grading grid is active&amp#27;[0m              &amp#27;[90m# com.osse.bdd.steps.EvaluationSteps.grading_grid_active()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user is authenticated as JURY&amp#27;[0m     &amp#27;[90m# com.osse.bdd.steps.EvaluationSteps.jury_authenticated()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe soutenance status is &amp#27;[0m&amp#27;[32m&amp#27;[1m"CLOTUREE"&amp#27;[0m &amp#27;[90m# com.osse.bdd.steps.EvaluationSteps.soutenance_status(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe jury attempts to modify grades&amp#27;[0m   &amp#27;[90m# com.osse.bdd.steps.EvaluationSteps.modify_grades()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe system refuses the modification&amp#27;[0m  &amp#27;[90m# com.osse.bdd.steps.PlanningSteps.system_refuses_modification()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Create student group" classname="Student group management" time="0.008">
+    <system-out><![CDATA[
+Scenario: Create student group                       &amp#27;[90m# src/test/resources/features/group_management.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe coordinator is authenticated&amp#27;[0m             &amp#27;[90m# com.osse.bdd.steps.GroupManagementSteps.the_coordinator_is_authenticated()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe coordinator registers a group of students&amp#27;[0m &amp#27;[90m# com.osse.bdd.steps.GroupManagementSteps.the_coordinator_registers_a_group_of_students()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe system saves the group&amp#27;[0m                    &amp#27;[90m# com.osse.bdd.steps.GroupManagementSteps.the_system_saves_the_group()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Reject group with duplicate student" classname="Student group management" time="0.009">
+    <system-out><![CDATA[
+Scenario: Reject group with duplicate student                     &amp#27;[90m# src/test/resources/features/group_management.feature:8&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma student already belongs to another group&amp#27;[0m                &amp#27;[90m# com.osse.bdd.steps.GroupManagementSteps.a_student_already_belongs_to_another_group()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe coordinator tries to assign the student to a new group&amp#27;[0m &amp#27;[90m# com.osse.bdd.steps.GroupManagementSteps.the_coordinator_tries_to_assign_the_student_to_a_new_group()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe system refuses the assignment&amp#27;[0m                          &amp#27;[90m# com.osse.bdd.steps.GroupManagementSteps.the_system_refuses_the_assignment()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Successful import" classname="Import students, groups and projects" time="0.011">
+    <system-out><![CDATA[
+Scenario: Successful import                    &amp#27;[90m# src/test/resources/features/import_data.feature:10&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma session exists&amp#27;[0m                       &amp#27;[90m# com.osse.bdd.steps.CommonSteps.a_session_exists()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user is authenticated as COORDINATOR&amp#27;[0m &amp#27;[90m# com.osse.bdd.steps.CommonSteps.the_user_is_authenticated_as_coordinator()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user uploads a valid CSV file&amp#27;[0m       &amp#27;[90m# com.osse.bdd.steps.ImportSteps.upload_valid_csv()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mvalid rows are imported&amp#27;[0m                 &amp#27;[90m# com.osse.bdd.steps.CommonSteps.valid_rows_are_imported()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32man import report is generated&amp#27;[0m            &amp#27;[90m# com.osse.bdd.steps.ImportSteps.import_report_generated()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="File with missing columns" classname="Import students, groups and projects" time="0.013">
+    <system-out><![CDATA[
+Scenario: File with missing columns                           &amp#27;[90m# src/test/resources/features/import_data.feature:15&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma session exists&amp#27;[0m                                      &amp#27;[90m# com.osse.bdd.steps.CommonSteps.a_session_exists()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user is authenticated as COORDINATOR&amp#27;[0m                &amp#27;[90m# com.osse.bdd.steps.CommonSteps.the_user_is_authenticated_as_coordinator()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user uploads a file with missing mandatory columns&amp#27;[0m &amp#27;[90m# com.osse.bdd.steps.ImportSteps.missing_columns()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe system rejects the import&amp#27;[0m                          &amp#27;[90m# com.osse.bdd.steps.ImportSteps.reject_import()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mdisplays an error message&amp#27;[0m                               &amp#27;[90m# com.osse.bdd.steps.CommonSteps.displays_an_error_message()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Partial import with errors" classname="Import students, groups and projects" time="0.009">
+    <system-out><![CDATA[
+Scenario: Partial import with errors                   &amp#27;[90m# src/test/resources/features/import_data.feature:20&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma session exists&amp#27;[0m                               &amp#27;[90m# com.osse.bdd.steps.CommonSteps.a_session_exists()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user is authenticated as COORDINATOR&amp#27;[0m         &amp#27;[90m# com.osse.bdd.steps.CommonSteps.the_user_is_authenticated_as_coordinator()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user uploads a file containing invalid rows&amp#27;[0m &amp#27;[90m# com.osse.bdd.steps.ImportSteps.invalid_rows()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mvalid rows are imported&amp#27;[0m                         &amp#27;[90m# com.osse.bdd.steps.CommonSteps.valid_rows_are_imported()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32minvalid rows are listed in the report&amp#27;[0m            &amp#27;[90m# com.osse.bdd.steps.ImportSteps.invalid_rows_report()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Assign jury to soutenance" classname="Jury assignment" time="0.009">
+    <system-out><![CDATA[
+Scenario: Assign jury to soutenance              &amp#27;[90m# src/test/resources/features/jury_assignment.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mjuries and student groups exist&amp#27;[0m          &amp#27;[90m# com.osse.bdd.steps.JuryAssignmentSteps.juries_and_student_groups_exist()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe coordinator assigns a jury to a group&amp#27;[0m &amp#27;[90m# com.osse.bdd.steps.JuryAssignmentSteps.the_coordinator_assigns_a_jury_to_a_group()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe assignment is saved&amp#27;[0m                   &amp#27;[90m# com.osse.bdd.steps.JuryAssignmentSteps.the_assignment_is_saved()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Prevent duplicate jury assignment" classname="Jury assignment" time="0.008">
+    <system-out><![CDATA[
+Scenario: Prevent duplicate jury assignment             &amp#27;[90m# src/test/resources/features/jury_assignment.feature:8&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma jury is already assigned at the same timeslot&amp#27;[0m &amp#27;[90m# com.osse.bdd.steps.JuryAssignmentSteps.a_jury_is_already_assigned_at_the_same_timeslot()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe coordinator assigns the same jury again&amp#27;[0m      &amp#27;[90m# com.osse.bdd.steps.JuryAssignmentSteps.the_coordinator_assigns_the_same_jury_again()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe system detects a conflict&amp#27;[0m                    &amp#27;[90m# com.osse.bdd.steps.JuryAssignmentSteps.the_system_detects_a_conflict()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Notify students after planning publication" classname="Notification system" time="0.006">
+    <system-out><![CDATA[
+Scenario: Notify students after planning publication &amp#27;[90m# src/test/resources/features/notifications.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma planning is published&amp#27;[0m                      &amp#27;[90m# com.osse.bdd.steps.NotificationsSteps.a_planning_is_published()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe notification process starts&amp#27;[0m               &amp#27;[90m# com.osse.bdd.steps.NotificationsSteps.the_notification_process_starts()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mstudents receive a notification&amp#27;[0m               &amp#27;[90m# com.osse.bdd.steps.NotificationsSteps.students_receive_a_notification()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Notify jury members" classname="Notification system" time="0.009">
+    <system-out><![CDATA[
+Scenario: Notify jury members              &amp#27;[90m# src/test/resources/features/notifications.feature:8&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma planning is published&amp#27;[0m            &amp#27;[90m# com.osse.bdd.steps.NotificationsSteps.a_planning_is_published()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mnotifications are sent&amp#27;[0m              &amp#27;[90m# com.osse.bdd.steps.CommonSteps.notifications_are_sent()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mjury members receive their schedule&amp#27;[0m &amp#27;[90m# com.osse.bdd.steps.NotificationsSteps.jury_members_receive_their_schedule()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Generate draft planning successfully" classname="Generate defence planning" time="0.01">
+    <system-out><![CDATA[
+Scenario: Generate draft planning successfully      &amp#27;[90m# src/test/resources/features/planning.feature:11&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mjuries, rooms and timeslots are defined&amp#27;[0m     &amp#27;[90m# com.osse.bdd.steps.PlanningSteps.juries_rooms_timeslots_defined()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mstudent groups are available&amp#27;[0m                  &amp#27;[90m# com.osse.bdd.steps.PlanningSteps.student_groups_available()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user is authenticated as COORDINATOR&amp#27;[0m      &amp#27;[90m# com.osse.bdd.steps.CommonSteps.the_user_is_authenticated_as_coordinator()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe coordinator launches planning generation&amp#27;[0m &amp#27;[90m# com.osse.bdd.steps.PlanningSteps.generate_planning()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe system proposes assignments&amp#27;[0m              &amp#27;[90m# com.osse.bdd.steps.PlanningSteps.system_proposes_assignments()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32msaves the planning as &amp#27;[0m&amp#27;[32m&amp#27;[1m"BROUILLON"&amp#27;[0m             &amp#27;[90m# com.osse.bdd.steps.PlanningSteps.saves_planning(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Detect resource conflicts" classname="Generate defence planning" time="0.008">
+    <system-out><![CDATA[
+Scenario: Detect resource conflicts                                           &amp#27;[90m# src/test/resources/features/planning.feature:16&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mjuries, rooms and timeslots are defined&amp#27;[0m                               &amp#27;[90m# com.osse.bdd.steps.PlanningSteps.juries_rooms_timeslots_defined()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mstudent groups are available&amp#27;[0m                                            &amp#27;[90m# com.osse.bdd.steps.PlanningSteps.student_groups_available()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user is authenticated as COORDINATOR&amp#27;[0m                                &amp#27;[90m# com.osse.bdd.steps.CommonSteps.the_user_is_authenticated_as_coordinator()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma jury is already assigned to another soutenance in the same timeslot&amp#27;[0m &amp#27;[90m# com.osse.bdd.steps.PlanningSteps.jury_conflict()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mplanning generation is executed&amp#27;[0m                                        &amp#27;[90m# com.osse.bdd.steps.PlanningSteps.planning_generation()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe system lists the conflicts detected&amp#27;[0m                                &amp#27;[90m# com.osse.bdd.steps.PlanningSteps.list_conflicts()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Prevent invalid manual modification" classname="Generate defence planning" time="0.008">
+    <system-out><![CDATA[
+Scenario: Prevent invalid manual modification                                        &amp#27;[90m# src/test/resources/features/planning.feature:21&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mjuries, rooms and timeslots are defined&amp#27;[0m                                      &amp#27;[90m# com.osse.bdd.steps.PlanningSteps.juries_rooms_timeslots_defined()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mstudent groups are available&amp#27;[0m                                                   &amp#27;[90m# com.osse.bdd.steps.PlanningSteps.student_groups_available()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user is authenticated as COORDINATOR&amp#27;[0m                                       &amp#27;[90m# com.osse.bdd.steps.CommonSteps.the_user_is_authenticated_as_coordinator()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe coordinator manually assigns a room already occupied at the same timeslot&amp#27;[0m &amp#27;[90m# com.osse.bdd.steps.PlanningSteps.manual_conflict()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe system refuses the modification&amp#27;[0m                                           &amp#27;[90m# com.osse.bdd.steps.PlanningSteps.system_refuses_modification()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Submit project successfully" classname="Project submission" time="0.009">
+    <system-out><![CDATA[
+Scenario: Submit project successfully           &amp#27;[90m# src/test/resources/features/project_submission.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma student is authenticated&amp#27;[0m              &amp#27;[90m# com.osse.bdd.steps.ProjectSubmissionSteps.a_student_is_authenticated()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe student uploads the project document&amp#27;[0m &amp#27;[90m# com.osse.bdd.steps.ProjectSubmissionSteps.the_student_uploads_the_project_document()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe system stores the document&amp#27;[0m           &amp#27;[90m# com.osse.bdd.steps.ProjectSubmissionSteps.the_system_stores_the_document()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Reject unsupported file" classname="Project submission" time="0.007">
+    <system-out><![CDATA[
+Scenario: Reject unsupported file                   &amp#27;[90m# src/test/resources/features/project_submission.feature:8&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma student is authenticated&amp#27;[0m                  &amp#27;[90m# com.osse.bdd.steps.ProjectSubmissionSteps.a_student_is_authenticated()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe student uploads an unsupported file type&amp#27;[0m &amp#27;[90m# com.osse.bdd.steps.ProjectSubmissionSteps.the_student_uploads_an_unsupported_file_type()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe system rejects the upload&amp#27;[0m                &amp#27;[90m# com.osse.bdd.steps.ProjectSubmissionSteps.the_system_rejects_the_upload()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Publish planning successfully" classname="Publish defence planning" time="0.018">
+    <system-out><![CDATA[
+Scenario: Publish planning successfully                 &amp#27;[90m# src/test/resources/features/publish_planning.feature:10&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma draft planning exists&amp#27;[0m                         &amp#27;[90m# com.osse.bdd.steps.PublishPlanningSteps.a_draft_planning_exists()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user is authenticated with publication rights&amp#27;[0m &amp#27;[90m# com.osse.bdd.steps.PublishPlanningSteps.authenticated_publication_rights()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mno blocking conflict exists&amp#27;[0m                     &amp#27;[90m# com.osse.bdd.steps.PublishPlanningSteps.no_conflict()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user validates publication&amp#27;[0m                   &amp#27;[90m# com.osse.bdd.steps.PublishPlanningSteps.validate_publication()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe planning status becomes &amp#27;[0m&amp#27;[32m&amp#27;[1m"PUBLIEE"&amp#27;[0m            &amp#27;[90m# com.osse.bdd.steps.PublishPlanningSteps.planning_status(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mnotifications are sent&amp#27;[0m                            &amp#27;[90m# com.osse.bdd.steps.CommonSteps.notifications_are_sent()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Refuse publication if conflict exists" classname="Publish defence planning" time="0.004">
+    <system-out><![CDATA[
+Scenario: Refuse publication if conflict exists         &amp#27;[90m# src/test/resources/features/publish_planning.feature:16&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma draft planning exists&amp#27;[0m                         &amp#27;[90m# com.osse.bdd.steps.PublishPlanningSteps.a_draft_planning_exists()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user is authenticated with publication rights&amp#27;[0m &amp#27;[90m# com.osse.bdd.steps.PublishPlanningSteps.authenticated_publication_rights()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mat least one blocking conflict exists&amp#27;[0m           &amp#27;[90m# com.osse.bdd.steps.PublishPlanningSteps.blocking_conflict()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user attempts to publish&amp#27;[0m                     &amp#27;[90m# com.osse.bdd.steps.PublishPlanningSteps.attempt_publish()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe system refuses publication&amp#27;[0m                   &amp#27;[90m# com.osse.bdd.steps.PublishPlanningSteps.refuses_publication()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Refuse publication with insufficient rights" classname="Publish defence planning" time="0.006">
+    <system-out><![CDATA[
+Scenario: Refuse publication with insufficient rights   &amp#27;[90m# src/test/resources/features/publish_planning.feature:21&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma draft planning exists&amp#27;[0m                         &amp#27;[90m# com.osse.bdd.steps.PublishPlanningSteps.a_draft_planning_exists()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user is authenticated with publication rights&amp#27;[0m &amp#27;[90m# com.osse.bdd.steps.PublishPlanningSteps.authenticated_publication_rights()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user does not have publication rights&amp#27;[0m       &amp#27;[90m# com.osse.bdd.steps.PublishPlanningSteps.no_rights()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user attempts to publish&amp#27;[0m                     &amp#27;[90m# com.osse.bdd.steps.PublishPlanningSteps.attempt_publish()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32maccess is denied&amp#27;[0m                                 &amp#27;[90m# com.osse.bdd.steps.CommonSteps.access_is_denied()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Generate jury report" classname="Jury report generation" time="0.005">
+    <system-out><![CDATA[
+Scenario: Generate jury report             &amp#27;[90m# src/test/resources/features/report_generation.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mevaluations are completed&amp#27;[0m          &amp#27;[90m# com.osse.bdd.steps.StatisticsSteps.evaluations_are_completed()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe coordinator requests the report&amp#27;[0m &amp#27;[90m# com.osse.bdd.steps.ReportGenerationSteps.the_coordinator_requests_the_report()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe system generates a jury report&amp#27;[0m  &amp#27;[90m# com.osse.bdd.steps.ReportGenerationSteps.the_system_generates_a_jury_report()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Export report as PDF" classname="Jury report generation" time="0.008">
+    <system-out><![CDATA[
+Scenario: Export report as PDF            &amp#27;[90m# src/test/resources/features/report_generation.feature:8&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma jury report exists&amp#27;[0m              &amp#27;[90m# com.osse.bdd.steps.ReportGenerationSteps.a_jury_report_exists()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe coordinator exports the report&amp#27;[0m &amp#27;[90m# com.osse.bdd.steps.ReportGenerationSteps.the_coordinator_exports_the_report()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe system generates a PDF file&amp#27;[0m    &amp#27;[90m# com.osse.bdd.steps.ReportGenerationSteps.the_system_generates_a_pdf_file()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Create defence room" classname="Room management" time="0.005">
+    <system-out><![CDATA[
+Scenario: Create defence room                  &amp#27;[90m# src/test/resources/features/room_management.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe admin is authenticated&amp#27;[0m             &amp#27;[90m# com.osse.bdd.steps.RoomManagementSteps.the_admin_is_authenticated()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe admin registers a new room&amp#27;[0m          &amp#27;[90m# com.osse.bdd.steps.RoomManagementSteps.the_admin_registers_a_new_room()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe room becomes available for planning&amp#27;[0m &amp#27;[90m# com.osse.bdd.steps.RoomManagementSteps.the_room_becomes_available_for_planning()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Prevent duplicate room" classname="Room management" time="0.005">
+    <system-out><![CDATA[
+Scenario: Prevent duplicate room                         &amp#27;[90m# src/test/resources/features/room_management.feature:8&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma room with the same name exists&amp#27;[0m                 &amp#27;[90m# com.osse.bdd.steps.RoomManagementSteps.a_room_with_the_same_name_exists()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe admin creates another room with the same name&amp#27;[0m &amp#27;[90m# com.osse.bdd.steps.RoomManagementSteps.the_admin_creates_another_room_with_the_same_name()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe system refuses creation&amp#27;[0m                       &amp#27;[90m# com.osse.bdd.steps.SessionSteps.the_system_refuses_creation()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Successful generation" classname="Generate defence schedule" time="0.006">
+    <system-out><![CDATA[
+Scenario: Successful generation               &amp#27;[90m# src/test/resources/features/schedule.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma session exists&amp#27;[0m                      &amp#27;[90m# com.osse.bdd.steps.CommonSteps.a_session_exists()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe coordinator generates the schedule&amp#27;[0m &amp#27;[90m# com.osse.bdd.steps.ScheduleSteps.coordinator_generates_schedule()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32ma draft schedule is created&amp#27;[0m            &amp#27;[90m# com.osse.bdd.steps.ScheduleSteps.draft_schedule_created()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="View grade distribution" classname="Session statistics" time="0.005">
+    <system-out><![CDATA[
+Scenario: View grade distribution             &amp#27;[90m# src/test/resources/features/statistics.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma session is completed&amp#27;[0m                &amp#27;[90m# com.osse.bdd.steps.StatisticsSteps.a_session_is_completed()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe coordinator views statistics&amp#27;[0m       &amp#27;[90m# com.osse.bdd.steps.StatisticsSteps.the_coordinator_views_statistics()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe system displays grade distribution&amp#27;[0m &amp#27;[90m# com.osse.bdd.steps.StatisticsSteps.the_system_displays_grade_distribution()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="View average grades" classname="Session statistics" time="0.004">
+    <system-out><![CDATA[
+Scenario: View average grades             &amp#27;[90m# src/test/resources/features/statistics.feature:8&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mevaluations are completed&amp#27;[0m         &amp#27;[90m# com.osse.bdd.steps.StatisticsSteps.evaluations_are_completed()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mstatistics are calculated&amp#27;[0m          &amp#27;[90m# com.osse.bdd.steps.StatisticsSteps.statistics_are_calculated()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe system displays average grades&amp#27;[0m &amp#27;[90m# com.osse.bdd.steps.StatisticsSteps.the_system_displays_average_grades()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Create timeslot" classname="Timeslot management" time="0.005">
+    <system-out><![CDATA[
+Scenario: Create timeslot                     &amp#27;[90m# src/test/resources/features/timeslot_management.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mrooms exist&amp#27;[0m                           &amp#27;[90m# com.osse.bdd.steps.TimeslotManagementSteps.rooms_exist()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe coordinator defines a timeslot&amp#27;[0m     &amp#27;[90m# com.osse.bdd.steps.TimeslotManagementSteps.the_coordinator_defines_a_timeslot()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe timeslot is available for planning&amp#27;[0m &amp#27;[90m# com.osse.bdd.steps.TimeslotManagementSteps.the_timeslot_is_available_for_planning()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Reject overlapping timeslot" classname="Timeslot management" time="0.006">
+    <system-out><![CDATA[
+Scenario: Reject overlapping timeslot                  &amp#27;[90m# src/test/resources/features/timeslot_management.feature:8&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma timeslot already exists&amp#27;[0m                      &amp#27;[90m# com.osse.bdd.steps.TimeslotManagementSteps.a_timeslot_already_exists()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe coordinator creates an overlapping timeslot&amp#27;[0m &amp#27;[90m# com.osse.bdd.steps.TimeslotManagementSteps.the_coordinator_creates_an_overlapping_timeslot()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe system refuses creation&amp#27;[0m                     &amp#27;[90m# com.osse.bdd.steps.SessionSteps.the_system_refuses_creation()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Assign coordinator role" classname="User role management" time="0.006">
+    <system-out><![CDATA[
+Scenario: Assign coordinator role                   &amp#27;[90m# src/test/resources/features/user_roles.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man admin is authenticated&amp#27;[0m                   &amp#27;[90m# com.osse.bdd.steps.UserRolesSteps.an_admin_is_authenticated()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe admin assigns COORDINATOR role to a user&amp#27;[0m &amp#27;[90m# com.osse.bdd.steps.UserRolesSteps.the_admin_assigns_coordinator_role_to_a_user()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe user gains coordinator privileges&amp#27;[0m        &amp#27;[90m# com.osse.bdd.steps.UserRolesSteps.the_user_gains_coordinator_privileges()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Remove coordinator role" classname="User role management" time="0.003">
+    <system-out><![CDATA[
+Scenario: Remove coordinator role                     &amp#27;[90m# src/test/resources/features/user_roles.feature:8&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man admin is authenticated&amp#27;[0m                     &amp#27;[90m# com.osse.bdd.steps.UserRolesSteps.an_admin_is_authenticated()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe admin removes coordinator role from a user&amp#27;[0m &amp#27;[90m# com.osse.bdd.steps.UserRolesSteps.the_admin_removes_coordinator_role_from_a_user()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe user loses coordinator privileges&amp#27;[0m          &amp#27;[90m# com.osse.bdd.steps.UserRolesSteps.the_user_loses_coordinator_privileges()&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>
