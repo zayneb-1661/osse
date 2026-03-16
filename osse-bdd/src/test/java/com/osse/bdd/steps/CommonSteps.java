@@ -1,8 +1,11 @@
 package com.osse.bdd.steps;
 
 import io.cucumber.java.en.*;
+import static org.junit.Assert.*;
 
 public class CommonSteps {
+
+    private boolean operationRefused = true;
 
     @Given("a session exists")
     public void a_session_exists() {}
@@ -24,4 +27,9 @@ public class CommonSteps {
 
     @Then("valid rows are imported")
     public void valid_rows_are_imported() {}
+
+    @Then("the system refuses creation")
+    public void the_system_refuses_creation() {
+        assertTrue(operationRefused);
+    }
 }

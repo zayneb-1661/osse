@@ -11,7 +11,7 @@ Feature: Create a defence session
     When the user enters a valid name, type and coherent dates
     And submits the form
     Then the system creates the session
-    And the session status is "BROUILLON"
+    And the session status is "DRAFT"
 
   Scenario: Reject session with incoherent dates
     When the user enters an end date earlier than the start date
