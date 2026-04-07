@@ -10,6 +10,7 @@ com/osse/bdd/steps/PublishPlanningSteps.class
 com/osse/bdd/steps/EvaluationSteps.class
 com/osse/bdd/steps/ScheduleSteps.class
 com/osse/bdd/steps/SessionSteps.class
+com/osse/bdd/steps/TestContext.class
 com/osse/bdd/steps/AuthenticationSteps.class
 com/osse/bdd/steps/CommonSteps.class
 com/osse/bdd/steps/PlanningSteps.class

@@ -1,3 +1,5 @@
-com/osse/domain/Session.class
+com/osse/domain/Planning.class
 com/osse/service/SessionService.class
 com/osse/App.class
+com/osse/service/PlanningService.class
+com/osse/domain/Session.class

@@ -5,6 +5,7 @@
 /home/zayneb/osse/osse-bdd/src/test/java/com/osse/bdd/steps/PublishPlanningSteps.java
 /home/zayneb/osse/osse-bdd/src/test/java/com/osse/bdd/steps/EvaluationSteps.java
 /home/zayneb/osse/osse-bdd/src/test/java/com/osse/bdd/steps/UserRolesSteps.java
+/home/zayneb/osse/osse-bdd/src/test/java/com/osse/bdd/steps/TestContext.java
 /home/zayneb/osse/osse-bdd/src/test/java/com/osse/bdd/steps/AuthenticationSteps.java
 /home/zayneb/osse/osse-bdd/src/test/java/com/osse/bdd/steps/GroupManagementSteps.java
 /home/zayneb/osse/osse-bdd/src/test/java/com/osse/bdd/RunCucumberTest.java

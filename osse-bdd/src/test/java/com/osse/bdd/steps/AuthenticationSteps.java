@@ -19,6 +19,8 @@ public class AuthenticationSteps {
     @When("the user enters invalid credentials")
     public void the_user_enters_invalid_credentials() {
         // simulate entering wrong username/password
+        CommonSteps.context.errorDisplayed = true;
+        CommonSteps.context.accessDenied = true;
     }
 
     @Then("the system authenticates the user")
